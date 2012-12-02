@@ -20,9 +20,22 @@
   transition-delay: 0s;
 }
 
+.annotorious-hint-icon {
+  display:inline-block;
+  background:url('feather_icon.png');
+  width:32px;
+  height:48px;
+  margin:4px 0px 0px 10px;
+  position:relative;
+  bottom:-6px;
+}
+
 .annotorious-hint-msg {
-  display:block;
+  display:inline-block;
+  position:relative;
+  bottom:12px;
   padding:12px;
+  font-weight:bold;
   font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
   line-height: normal;
   font-size:14px;
