@@ -1,3 +1,34 @@
+/** Hint/help popup **/
+
+.annotorious-hint {
+  width:100%;
+  background-color:rgba(0, 0, 0, 0.8);
+  margin:0px;
+  padding:0px;
+
+  -moz-transition-property: opacity;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-delay: 0s;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-delay: 0s;
+  -o-transition-property: opacity;
+  -o-transition-duration: 0.5s;
+  -o-transition-delay: 0s;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+
+.annotorious-hint-msg {
+  display:block;
+  padding:12px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  line-height: normal;
+  font-size:14px;
+  color:#fff;
+}
+
 /** Popup **/
 
 .annotorious-popup {
@@ -153,33 +184,6 @@
 /** Module components **/
 
 .annotorious-opacity-fade {
-  -moz-transition-property: opacity;
-  -moz-transition-duration: 0.5s;
-  -moz-transition-delay: 0s;
-  -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
-  -webkit-transition-delay: 0s;
-  -o-transition-property: opacity;
-  -o-transition-duration: 0.5s;
-  -o-transition-delay: 0s;
-  transition-property: opacity;
-  transition-duration: 0.5s;
-  transition-delay: 0s;
-}
-
-.annotorious-hint {
-  line-height: normal;
-  font-family:Arial, Verdana, Sans;
-  font-size:11px;
-  color:#000;
-  background-color:#fff;
-  margin:0px;
-  padding:5px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-
   -moz-transition-property: opacity;
   -moz-transition-duration: 0.5s;
   -moz-transition-delay: 0s;
